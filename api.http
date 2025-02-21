@@ -2,10 +2,27 @@ POST http://localhost:3333/subscriptions
 Content-Type: application/json
 
 {
-    "name": "Rafael Maia",
-    "email": "rafaelmfcontato@protonmail.com"
+    "name": "Rafael Fonseca 5",
+    "email": "rafa_maia6@hotmail.com",
+    "referrer": "e3e4bc4c-0533-4963-9bac-1e762d9f3453"
+    
 }
 
 ###
 
-GET http://localhost:3333/invites/rafa123
+GET http://localhost:3333/invites/e9bfeeb9-0c8d-4b93-9d26-752e54eec8a9
+
+###
+
+GET http://localhost:3333/subscribers/e9bfeeb9-0c8d-4b93-9d26-752e54eec8a9/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/e9bfeeb9-0c8d-4b93-9d26-752e54eec8a9/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/e9bfeeb9-0c8d-4b93-9d26-752e54eec8a9/ranking/position
+
+###
+GET http://localhost:3333/ranking
