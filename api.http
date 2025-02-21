@@ -5,3 +5,7 @@ Content-Type: application/json
     "name": "Rafael Maia",
     "email": "rafaelmfcontato@protonmail.com"
 }
+
+###
+
+GET http://localhost:3333/invites/rafa123
